@@ -17,12 +17,11 @@ st.map(map_data)
 
 
 
-
- """if st.checkbox('show dataframe'):
-       chart_data=pd.DataFrame(
-       np.random.randn(20,3),
-       columns=['a','b','c'])
- chart_data"""
+#if st.checkbox('show dataframe'):
+ #      chart_data=pd.DataFrame(
+#       np.random.randn(20,3),
+#       columns=['a','b','c'])
+ #   chart_data"""
 
 
 # option=st.selectbox(
