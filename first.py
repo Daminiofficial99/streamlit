@@ -10,7 +10,6 @@ import time
 #    columns=['a','b','c'])
 #st.line_chart(chart_data)
 
-
 map_data=pd.DataFrame(
      np.random.randn(1000,2)/[50,50]+[37.76,-122.4],
      columns=['lat','lon'])
@@ -18,11 +17,11 @@ st.map(map_data)
 
 
 
- if st.checkbox('show dataframe'):
+ '''if st.checkbox('show dataframe'):
        chart_data=pd.DataFrame(
        np.random.randn(20,3),
        columns=['a','b','c'])
- chart_data
+ chart_data'''
 
 
 # option=st.selectbox(
