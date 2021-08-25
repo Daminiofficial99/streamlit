@@ -22,7 +22,7 @@ import time
      chart_data=pd.DataFrame(
        np.random.randn(20,3),
          columns=['a','b','c'])
-     chart_data
+ chart_data
 
 
 # option=st.selectbox(
